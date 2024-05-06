@@ -1,7 +1,16 @@
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score
+#Ucitajte dane podatke u obliku numpy polja data. Podijelite ih na ulazne podatke X i izlazne
+#2
+#podatke y. Podijelite podatke na skup za ucenje i skup za testiranje modela u omjeru 80:20. 
+#Dodajte programski kod u skriptu pomocu kojeg možete odgovoriti na sljedeca pitanja: 
+#a) Izgradite model logisticke regresije pomo cu scikit-learn biblioteke na temelju skupa podataka za ucenje. 
+#b) Provedite klasifikaciju skupa podataka za testiranje pomocu izgra denog modela logisticke 
+#regresije.
+#c) Izracunajte i prikažite matricu zabune na testnim podacima. Komentirajte dobivene rezultate.
+#d) Izracunajte tocnost, preciznost i odziv na skupu podataka za testiranje. Komentirajte dobivene rezultate.
+#import numpy as np
+#from sklearn.model_selection import train_test_split
+#from sklearn.linear_model import LogisticRegression
+#from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score
 
 # Učitavanje podataka
 # Zamijenite ovaj dio s vašim stvarnim podacima
